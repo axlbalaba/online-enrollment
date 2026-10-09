@@ -1,0 +1,33 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Database exports may contain real enrollment records
+/dbgreenvalley.sql
+/include/database_dbgreenvalley.sql
+/admin/back-up/backup/
+
+# Dependencies and generated caches
+/vendor/
+/node_modules/
+/.cache/
+/.phpunit.cache/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+sess_*
+
+# Editor and operating system files
+.vscode/
+.idea/
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini
